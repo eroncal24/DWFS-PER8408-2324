@@ -1,0 +1,113 @@
+body {
+    background-color: whitesmoke;
+    font-family: Calibri;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 940px;
+}
+
+.header{
+    display: flex;
+    width: 900px;
+    background-color: white;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera-texto{
+    text-align: center;
+    width: 450px;
+}
+
+.texto-titulo{
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.texto-subtitulo1{
+    color: #484848;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-subtitulo2{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-subtitulo3{
+    color: #484848;
+    font-size: 17px;
+}
+
+.texto-subtitulo4{
+    color: #484848;
+    font-size: 19x;
+    font-weight: bold;
+}
+.texto-subtitulo5{
+    color: #484848;
+    font-size: 19x;
+}
+
+.texto-subtitulo6{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.texto-subtitulo7{
+    color: white;
+    font-size: 17x;
+    margin: 10px;
+}
+.espaciado{
+    margin-top: 20px;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.informacion-principal{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: white;
+}
+
+.informacion-secundaria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    width: 290px;
+    height: 100%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+hr{
+    background-color: blue;
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    margin-top: 0;
+}
